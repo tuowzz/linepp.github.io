@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -17,7 +16,7 @@
     s.parentNode.insertBefore(t,s)}
     (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '127978927946856');
-    fbq('track', 'Lead');
+    fbq('track', 'Purchase', {value: 0.00, currency: 'THB'});
   </script>
 
   <!-- TikTok Pixel -->
@@ -51,7 +50,7 @@
       };
       ttq.load('D0EVS2JC77U9C23772EG');
       ttq.page();
-      ttq.track('CompleteRegistration');
+      ttq.track('CompletePayment');
     }(window, document, 'ttq');
   </script>
 
